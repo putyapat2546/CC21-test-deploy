@@ -13,9 +13,9 @@ const router = createBrowserRouter([
   {path: 'products', element: <ProductsPage/>, loader: fetchProducts},
   ]},
   {path: '*', element:<h1>kkfkfkkff</h1>},
-  {
-  basename: '/CC21-test-deploy'
-  }
-])
-
+]
+{
+basename: '/CC21-test-deploy'
+}
+)
 export default router;
